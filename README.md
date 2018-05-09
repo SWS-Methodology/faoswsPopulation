@@ -1,2 +1,2 @@
 # faoswsPopulation
-Repository to the routine to properly reshape and import UNPD data in the SWS.
+Repository to host the routines to properly reshape and import UNPD data in the SWS.
