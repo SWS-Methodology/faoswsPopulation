@@ -41,7 +41,7 @@ series data in the Statistical Working System - Processed items}
 
 \Abstract{
 
-   Population: this document contains information on the overall workflow to populate the new population datasets stored in the \code{SWS}. It replies to many questions as for example: why have these datasets been created? How can these datasets be updated when a new realise from the data-source is available?  \\
+   Population: this document contains information on the overall workflow to populate the new population datasets stored in the \code{SWS}. It replies to many questions as for example: why have these datasets been created? How can these datasets be updated when a new release from the data-source is available?  \\
 
 }
 
@@ -78,7 +78,7 @@ In particular, the dataset \code{Population} contains three elements:
 \item{\textit{Weighted Total Population},  [\code{element-code 511]}
 \end{itemize}
 
-Apparently, these variables have not been updated anymore, and we do not dispose of sufficient metadata to rebuild the statistical processes performed to compute this figures.
+Apparently, these variables have not been updated anymore, and we do not dispose of broad set of metadata to rebuild the statistical processes performed to compute this figures.
 
 
 \section{The new UNPD dataset}
@@ -87,7 +87,7 @@ It has been agreed that the only source for Population data is the \textbf{Unite
 The UNPD database can be directly accessed from the \href{http://www.un.org/en/development/desa/population/publications/database/index.shtml}{UNDP URL}.
 
 
-The elements we inherit from the UNPD data-source are:
+The elements inherited from the UNPD data-source are:
 
 \begin{itemize}
 \item{Total population  (WPP), [\code{element-code: 511]}
@@ -97,9 +97,9 @@ The elements we inherit from the UNPD data-source are:
 \item{Rural population (WUP), [\code{element-code: 551]}
 \end{itemize}
 
-These variables are already published on FAOSTAT. In order to ensure the complince in terms of classifications (berween FAOSTAT and the \code{SWS}) the same element-codes have been used to stored these elements in the \code{SWS}.
+These variables are already published on FAOSTAT. In order to ensure the compliance  in terms of classifications (between FAOSTAT and the \code{SWS}) the same element-codes have been used to store these elements in the \code{SWS}.
 
-\textcolor{red}{\textbf{IMPORTANT NOTE: }} please note that the \textbf{new release of the World Population Prospects and the World Urbanization Prospects may not occur at the same time}. The implication of this misalignment in the release of the WPP and the WUP is, mainly, the possible misalignment of the Regions that might have been designed in different moments. For this reason, we suggest to look separately at the following documents:
+\textcolor{red}{\textbf{IMPORTANT NOTE: }} please note that the \textbf{new release of the World Population Prospects and the World Urbanization Prospects may not occur at the same time}. The implication of this misalignment in the release-period of the WPP and the WUP is, mainly, the possible misalignment of the aggregated data for example data referring to regions, sub-regions and income groups that might have been designed in different moments. For this reason, it is recommended to look separately at the following documents:
 
 \begin{itemize}
 \item{\href{https://esa.un.org/unpd/wpp/General/Files/Definition_of_Regions.pdf}{World Population Prospects: The 2017 Revision - CLASSIFICATION OF COUNTRIES BY REGION, INCOME GROUP
@@ -110,14 +110,14 @@ AND REGION OF THE WORLD AND INCOME GROUP}}
 
 
 
-The World Population Prospects also contains long terms projection of the Total, Female and Male Population. The projections we have included in the \code{SWS} are under the assumptions of "Medium variant fertility" \footnote{Additional information is available in the UNPD document: \href{https://esa.un.org/unpd/wpp/Publications/Files/WPP2017_Methodology.pdf}{Methodology of the United Nations Population Estimates and Projections, 2017 Revision}}.
+The World Population Prospects also contains long terms projection of the Total, Female and Male Population. The projections currently included in the \code{SWS} are under the assumptions of "Medium variant fertility" \footnote{Additional information is available in the UNPD document: \href{https://esa.un.org/unpd/wpp/Publications/Files/WPP2017_Methodology.pdf}{Methodology of the United Nations Population Estimates and Projections, 2017 Revision}}.
 
 All this information is stored in the metadata in order to support the users to properly interpret data.
-In particular, the metadata associated to every single figure contains information on:
+In particular, the metadata at observation level contains information on:
 
 \begin{itemize}
-\item{the data source which can be either the \textit{World Population Prospect} (WPP) or the \textit{World Urbanization Prospect} (WUP); }
-\item{the year of the last realise;}
+\item{the data-source which can be either the \textit{World Population Prospect} (WPP) or the \textit{World Urbanization Prospect} (WUP); }
+\item{the year of the last release;}
 \item{if the figure is an estimation or a projection and, in this latter case, the method used to compute the projection, so far \textit{Medium Variant}}
 \end{itemize}
 
@@ -129,16 +129,16 @@ In particular, the metadata associated to every single figure contains informati
 \end{center}
 
 
-Two dataset has been created to host the UNPD population data:
+Two dataset has been created to host in the \code{SWS} the UNPD population data:
 \begin{itemize}
-\item{\textbf{Source Population UNPD}, this dataset represents a clone of the data disseminated by UNPD. It basically contains all the UNPD data. The reason why we decided to create this dataset is that despite both UNPD and FAO support the same international classification for the geographic area, the perfect compliance is ensured only at country-level. We verify that there is no match in terms of M49 codes for Regions or Country Groups. We decided to host in any case all the data about Regions and Aggregates since \textit{countries or areas listed individually are only those with 90,000 inhabitants or more in 2017; the rest are included in the aggregates but are not listed separately.}\footnote{UNPD}}
+\item{\textbf{Source Population UNPD}, this dataset represents a clone of the data disseminated by UNPD. It basically contains all the UNPD data. The reason why it has been decided to create this dataset is that despite both UNPD and FAO support the same international classification for the geographic area, the perfect compliance is ensured only at country-level while there is no match in terms of M49 codes for regions, sub-regions and income groups. It has been decided to host, in any case, all the UNPD data, since \textit{countries or areas listed individually are only those with 90,000 inhabitants or more in 2017; the rest are included in the aggregates but are not listed separately.}\footnote{UNPD}}
 \item{\textbf{Population UNPD}, this detasets is the \textit{operational} one. It contains only the M49 codes supported by the FAO. This means that all the other statistical processes embedded in the \code{SWS} should point to this dataset.}
 \end{itemize}
 
 
 \section{How to update new UNPD datasets}
 
-UNPD Data must be manually downloaded from the \href{http://www.un.org/en/development/desa/population/publications/database/index.shtml}{UNPD download page}. A routine has been created to structure the data in order to be hosted by the \code{SWS}. This routine depends on the structure of the files downloaded and can be re-used as long as the UNPD files have the same template.
+UNPD Data must be manually downloaded from the \href{http://www.un.org/en/development/desa/population/publications/database/index.shtml}{UNPD download page}. A routine has been created to reshape the data in order to be hosted by the \code{SWS}. This routine depends on the structure of the files downloaded and can be re-used as long as the UNPD files have the same template.
 
 Some additional operations have to be performed in order to locally store the data in a way that is suitable to be imported in the \code{SWS}.
 \begin{enumerate}
@@ -188,7 +188,7 @@ This routine:
 \begin{itemize}
 \item{assigns the \code{SWS} elements to the different UNPD variables;}
 \item{assigns \code{SWS} flags;}
-\item{builds the \code{SWS} metadata file. Please specify in the routine the version of both the WPP and WUP (line 1-2), For example at the moment we have \textit{"WPP2017"} and \textit{"WUP2014"};}
+\item{builds the \code{SWS} metadata file. Please specify in the routine the version of both the WPP and WUP (line 1-2). For example, data currently hosted in the SWS are classified as \textit{"WPP2017"}/\textit{"WUP2014"};}
 \item{populates the \code{Source UNPD population} dataset with the new figures.}
 \end{itemize}
 
