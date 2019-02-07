@@ -1,20 +1,16 @@
-WPPmetadata="WPP2017"
-WUPmetadata="WUP2014"
-
-
 suppressMessages({
-  library(faosws)
-  library(faoswsUtil)
-  library(data.table)
-  library(igraph)
-  library(faoswsBalancing)
-  library(faoswsStandardization)
-  library(dplyr)
-  library(MASS)
-  library(lattice)
-  library(reshape2)
-  library(forecast)
-  #library(tidyr)
+library(faosws)
+library(faoswsUtil)
+library(data.table)
+library(igraph)
+library(faoswsBalancing)
+library(faoswsStandardization)
+library(dplyr)
+library(MASS)
+library(lattice)
+library(reshape2)
+library(forecast)
+library(tidyr)
 })
 
 R_SWS_SHARE_PATH <- Sys.getenv("R_SWS_SHARE_PATH")
@@ -43,7 +39,7 @@ CONFIG = GetDatasetConfig(swsContext.datasets[[1]]@domain, swsContext.datasets[[
 
 ## Estimation
 
-pop_tot_pop_WPP2017=fread(file.path(getwd(),"population/total/WPP2017_TOTAL_POPULATION.csv"),
+pop_tot_pop_WPP2017=fread("C:/Users/Rosa/Favorites/Github/sws_project/faoswsPopulation/data/tot_pop/WPP2017_POP_F01_1_TOTAL_POPULATION_BOTH_SEXES.csv",
                           header = TRUE)
 
 pop_tot_pop_WPP2017_melt= melt(pop_tot_pop_WPP2017, id.vars = c("Variant","area","Notes","Country_code"),
@@ -62,7 +58,7 @@ pop_tot_pop_WPP2017_melt[,timePointYears:=as.numeric(timePointYears)]
 
 
 ##Projection
-pop_tot_pop_WPP2017_MediumVariantFertility=fread(file.path(getwd(),"population/total/WPP2017_TOTAL_POPULATION_MVF.csv"),
+pop_tot_pop_WPP2017_MediumVariantFertility=fread("C:/Users/Rosa/Favorites/Github/sws_project/faoswsPopulation/data/tot_pop/WPP2017_POP_F01_1_TOTAL_POPULATION_BOTH_SEXES_MediumVariantFertility.csv",
                                                  header = TRUE)
 ##melt data
 pop_tot_pop_WPP2017_MVF_melt= melt(pop_tot_pop_WPP2017_MediumVariantFertility, id.vars = c("Variant","area","Notes","Country_code"),
@@ -101,7 +97,7 @@ totPop[,item:="tot"]
 ################################################
 ##Estimation
 
-WPP2017_POP_FEMALE=fread(file.path(getwd(),"population/female/WPP2017_POP_FEMALE.csv"),
+WPP2017_POP_FEMALE=fread("C:/Users/Rosa/Favorites/Github/sws_project/faoswsPopulation/data/male_female/female/WPP2017_POP_FEMALE.csv",
                          header = TRUE)
 
 WPP2017_POP_FEMALE_melt= melt(WPP2017_POP_FEMALE, id.vars = c("Variant","area","Notes","Country_code"),
@@ -117,7 +113,7 @@ WPP2017_POP_FEMALE_melt[,Value:=as.numeric(Value)]
 WPP2017_POP_FEMALE_melt[,timePointYears:=as.character(timePointYears)]
 WPP2017_POP_FEMALE_melt[,timePointYears:=as.numeric(timePointYears)]
 ##Projection
-WPP2017_POP_MVF_FEMALE= fread(file.path(getwd(),"population/female/WPP2017_POP_FEMALE_MVF.csv"),
+WPP2017_POP_MVF_FEMALE=fread("C:/Users/Rosa/Favorites/Github/sws_project/faoswsPopulation/data/male_female/female/WPP2017_POP_MVF_FEMALE.csv",
                              header = TRUE)
 ##melt data
 WPP2017_POP_MVF_FEMALE_melt= melt(WPP2017_POP_MVF_FEMALE, id.vars = c("Variant","area","Notes","Country_code"),
@@ -150,7 +146,7 @@ totPop_female[,item:="female"]
 ################################################
 ##Estimation
 
-WPP2017_POP_MALE=fread(file.path(getwd(),"population/male/WPP2017_POP_MALE.csv"),
+WPP2017_POP_MALE=fread("C:/Users/Rosa/Favorites/Github/sws_project/faoswsPopulation/data/male_female/male/WPP2017_POP_MALE.csv",
                        header = TRUE)
 
 WPP2017_POP_MALE_melt= melt(WPP2017_POP_MALE, id.vars = c("Variant","area","Notes","Country_code"),
@@ -166,7 +162,7 @@ WPP2017_POP_MALE_melt[,timePointYears:=as.numeric(timePointYears)]
 
 
 ##Projection
-WPP2017_POP_MVF_MALE=fread(file.path(getwd(),"population/male/WPP2017_POP_MALE_MVF.csv"),
+WPP2017_POP_MVF_MALE=fread("C:/Users/Rosa/Favorites/Github/sws_project/faoswsPopulation/data/male_female/male/WPP2017_POP_MVF_MALE.csv",
                            header = TRUE)
 ##melt data
 WPP2017_POP_MVF_MALE_melt= melt(WPP2017_POP_MVF_MALE, id.vars = c("Variant","area","Notes","Country_code"),
@@ -202,7 +198,7 @@ totPop_male[,item:="male"]
 ################################################
 ##Estimation
 
-WPP_POP_URBAN=fread(file.path(getwd(),"population/urban/WUP2014_Urban.csv"),
+WPP_POP_URBAN=fread("C:/Users/Rosa/Favorites/Github/sws_project/faoswsPopulation/data/urban_rural/urban/WUP2014-F19-Urban_Population_Annual.csv",
                     header = TRUE)
 
 WPP_POP_URBAN_melt= melt(WPP_POP_URBAN, id.vars = c("area","Note","Country_Code"),
@@ -223,7 +219,7 @@ totPop_urban[,item:="urban"]
 ################################################
 ##Estimation
 
-WPP_POP_RURAL=fread(file.path(getwd(),"population/rural/WUP2014_Rural.csv"),
+WPP_POP_RURAL=fread("C:/Users/Rosa/Favorites/Github/sws_project/faoswsPopulation/data/urban_rural/rural/WUP2014-F20-Rural_Population_Annual.csv",
                     header = TRUE)
 
 WPP_POP_RURAL_melt= melt(WPP_POP_RURAL, id.vars = c("area","Note","Country_Code"),
@@ -295,8 +291,8 @@ fileMetadata[,Value:=NULL]
 
 
 
-fileMetadata[measuredElement %in% c("511","512","513"), Metadata_Value:=paste(WPPmetadata, Variant, sep="-")]
-fileMetadata[measuredElement %in% c("561","551"), Metadata_Value:=paste(WUPmetadata, Variant, sep="-")]
+fileMetadata[measuredElement %in% c("511","512","513"), Metadata_Value:=paste("WPP2017", Variant, sep="-")]
+fileMetadata[measuredElement %in% c("561","551"), Metadata_Value:=paste("WUP2014", Variant, sep="-")]
 fileMetadata[,Variant:=NULL]
 
 fileMetadata[,Metadata_Value:=gsub("-NA", "", fileMetadata[,Metadata_Value])]
@@ -329,8 +325,8 @@ setnames(finalFile,"geographicAreaM49","geographicAreaM49_unpd")
 setnames(fileMetadata,"geographicAreaM49","geographicAreaM49_unpd")
 
 
-#finalFile=finalFile[timePointYears<=2018,]
-#fileMetadata=fileMetadata[timePointYears<=2018,]
+finalFile=finalFile[timePointYears<=2018,]
+fileMetadata=fileMetadata[timePointYears<=2018,]
 
 finalFileLabel=nameData("population","source_population_undp",finalFile)
 unique(finalFileLabel[is.na(geographicAreaM49_unpd_description), geographicAreaM49_unpd])
@@ -354,17 +350,17 @@ endYear=finalFile[, max(timePointYears)]
 
 timeWindow=c(startYear:endYear)
 
-for(i in seq_along(timeWindow)){
+for(i in seq_len(timeWindow)){
   currentYear=timeWindow[i]
-  finalFileCurrentYear=finalFile[timePointYears==currentYear]
+  finalFileCurrentYear=finalData[timePointYears==currentYear]
   finalFileCurrentYear[,timePointYears:=as.character(timePointYears)]
 
   fileMetadataCurrentYear=fileMetadata[timePointYears==currentYear]
   fileMetadataCurrentYear[,timePointYears:=as.character(timePointYears)]
 
   message(paste0("Save Population data for the year: ", currentYear))
-  SaveData("population","source_population_undp",finalFileCurrentYear, fileMetadataCurrentYear)
+  SaveData("population","population_unpd",finalDataCurrentYear, fileMetadataCurrentYear)
 }
 
-message("UNPD data have been imported in the Source UNPD population dataset")
+
 
