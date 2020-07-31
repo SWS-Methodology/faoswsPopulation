@@ -1,0 +1,16 @@
+current: qa
+qa:
+
+  certdir: C:/Users/Charlotte/OneDrive - Food and Agriculture Organization/Github/.R/QA
+  server: https://hqlqasws1.hq.un.fao.org:8181/sws
+  #token: abfa3981-f2e0-4bff-bab4-ffb78720a981
+  token: 4e1631cf-4e2d-4595-9872-26a694a10a5e
+  share: "Z:"
+
+
+production:
+  certdir: C:/Users/Taglionic/Documents/Github/.R/Production
+  server: https://hqlprswsas1.hq.un.fao.org:8181/sws
+  token: 3e85b59d-79f9-4844-9786-c5ebe3a67195
+  share: "Z:"
+

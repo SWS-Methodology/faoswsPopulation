@@ -1,0 +1,609 @@
+"","code","sws_description","unpd_code","unpd_description","compliant"
+"1","0","wildcard",NA,NA,FALSE
+"2","0000","Sudan (former)",NA,NA,FALSE
+"3","005.01","South America, unspecified for population",NA,NA,FALSE
+"4","011.01","Western Africa, unspecified for population",NA,NA,FALSE
+"5","021.01","Northern America, unspecified for population",NA,NA,FALSE
+"6","029.01","Caribbean, unspecified for population",NA,NA,FALSE
+"7","039.01","Southern Europe, unspecified for population",NA,NA,FALSE
+"8","057.01","Micronesia, unspecified for population",NA,NA,FALSE
+"9","061.01","Polynesia, unspecified for population",NA,NA,FALSE
+"10","1","World",NA,NA,FALSE
+"11","10","Antarctica",NA,NA,FALSE
+"12","100","Bulgaria","100","Bulgaria",TRUE
+"13","1000","Dng LtCb EAA",NA,NA,FALSE
+"14","1001","Dng Ocea EAA",NA,NA,FALSE
+"15","1002","Dng Oth EAA",NA,NA,FALSE
+"16","1003","Dd Afric EAA",NA,NA,FALSE
+"17","1004","Dd Amer EAA",NA,NA,FALSE
+"18","1005","Dd Asia EAA",NA,NA,FALSE
+"19","1006","Dd Ocean EAA",NA,NA,FALSE
+"20","1007","Dd W Eur EAA",NA,NA,FALSE
+"21","1008","Dd E Eur EAA",NA,NA,FALSE
+"22","1009","Dd USSR EAA",NA,NA,FALSE
+"23","1010","Dg Af Ce EAA",NA,NA,FALSE
+"24","1011","Dg Af Es EAA",NA,NA,FALSE
+"25","1012","Dg Af NW EAA",NA,NA,FALSE
+"26","1013","Dg Af SthEAA",NA,NA,FALSE
+"27","1014","Dg Af Wt EAA",NA,NA,FALSE
+"28","1015","Dg Anta EAA",NA,NA,FALSE
+"29","1016","Dg As ESE",NA,NA,FALSE
+"30","1017","Dg As NE EAA",NA,NA,FALSE
+"31","1018","Dg As SthEAA",NA,NA,FALSE
+"32","1019","Dg China EAA",NA,NA,FALSE
+"33","1020","Dg Am NthEAA",NA,NA,FALSE
+"34","1021","Dg Am CenEAA",NA,NA,FALSE
+"35","1022","Dg Am CabEAA",NA,NA,FALSE
+"36","1023","Dg Am SthEAA",NA,NA,FALSE
+"37","1024","Dg Ocean EAA",NA,NA,FALSE
+"38","1025","Dg OthersEAA",NA,NA,FALSE
+"39","1026","Afr NtSahEAA",NA,NA,FALSE
+"40","1027","Afr StSahEAA",NA,NA,FALSE
+"41","1028","Cnt Am Carib",NA,NA,FALSE
+"42","1029","Dd USSR Asia",NA,NA,FALSE
+"43","1030","Dd USSR Euro",NA,NA,FALSE
+"44","1031","Far East",NA,NA,FALSE
+"45","1032","Near East",NA,NA,FALSE
+"46","1033","FE & Oceania",NA,NA,FALSE
+"47","1034","ESE As&China",NA,NA,FALSE
+"48","1035","World,EAA",NA,NA,FALSE
+"49","1036","Africa,EAA",NA,NA,FALSE
+"50","1037","Dvd Ind,EAA",NA,NA,FALSE
+"51","1038","Dvd NAmr,EAA",NA,NA,FALSE
+"52","1039","Dvd WEur,EAA",NA,NA,FALSE
+"53","104","Myanmar","104","Myanmar",TRUE
+"54","1040","Dvd Ocen,EAA",NA,NA,FALSE
+"55","1041","Dvd Oths,EAA",NA,NA,FALSE
+"56","1042","Dvg LA&C,EAA",NA,NA,FALSE
+"57","1043","Dvg N Af,EAA",NA,NA,FALSE
+"58","1044","Dvg SbSh,EAA",NA,NA,FALSE
+"59","1045","Dvg Oths,EAA",NA,NA,FALSE
+"60","1046","Africa,EAA",NA,NA,FALSE
+"61","1047","LAmerica,EAA",NA,NA,FALSE
+"62","1048","Oceania,EAA",NA,NA,FALSE
+"63","1049","Aus/Nwzl,EAA",NA,NA,FALSE
+"64","1050","Oth,Oceania",NA,NA,FALSE
+"65","1051","LDC's EAA",NA,NA,FALSE
+"66","1052","Antartic EAA",NA,NA,FALSE
+"67","1053","Devloped EAA",NA,NA,FALSE
+"68","1054","RAP",NA,NA,FALSE
+"69","1055","Developing",NA,NA,FALSE
+"70","1056","Asia",NA,NA,FALSE
+"71","1057","Asia (Fmr)",NA,NA,FALSE
+"72","1058","World (Fmr)",NA,NA,FALSE
+"73","1059","LIFDCs",NA,NA,FALSE
+"74","1064","FAO MEMBERS",NA,NA,FALSE
+"75","1065","FAO OFFICES",NA,NA,FALSE
+"76","1067","SUB GROUP",NA,NA,FALSE
+"77","1069","COUNTRY LIST",NA,NA,FALSE
+"78","1070","SUAP",NA,NA,FALSE
+"79","1071","SUATLA",NA,NA,FALSE
+"80","1072","SUAFP",NA,NA,FALSE
+"81","1073","SUAFD",NA,NA,FALSE
+"82","1074","SUAFP",NA,NA,FALSE
+"83","1075","SUAFD",NA,NA,FALSE
+"84","1076","CBDCBDCAP",NA,NA,FALSE
+"85","1077","LUIM",NA,NA,FALSE
+"86","1078","LUILU",NA,NA,FALSE
+"87","1079","LUII",NA,NA,FALSE
+"88","108","Burundi","108","Burundi",TRUE
+"89","1080","LUIP",NA,NA,FALSE
+"90","1081","PINCP",NA,NA,FALSE
+"91","1082","FoodAidFA",NA,NA,FALSE
+"92","1083","TINCPD",NA,NA,FALSE
+"93","1084","SUAPCP",NA,NA,FALSE
+"94","1085","SUAPCD",NA,NA,FALSE
+"95","1086","SUAPLP",NA,NA,FALSE
+"96","1087","SUATCLP",NA,NA,FALSE
+"97","1088","CBDCBDPLAP",NA,NA,FALSE
+"98","1089","CBDCBDNPLAP",NA,NA,FALSE
+"99","1090","N Amer (FAO)",NA,NA,FALSE
+"100","1091","LatAmCar FAO",NA,NA,FALSE
+"101","1092","SAfrica Dvng",NA,NA,FALSE
+"102","1093","Far East",NA,NA,FALSE
+"103","1094","Baltic Assem",NA,NA,FALSE
+"104","1095","EU (15)",NA,NA,FALSE
+"105","1096","Europ&Baltic(1991-)",NA,NA,FALSE
+"106","1097","E SEAsia&Chn",NA,NA,FALSE
+"107","1098","LAS",NA,NA,FALSE
+"108","1099","World (Fmr)",NA,NA,FALSE
+"109","1100","BSEC Dvng",NA,NA,FALSE
+"110","1101","North Africa",NA,NA,FALSE
+"111","1102","LA&C (EHDAX)",NA,NA,FALSE
+"112","1103","OPEC",NA,NA,FALSE
+"113","1104","CARIFORUM",NA,NA,FALSE
+"114","1105","CEFTA",NA,NA,FALSE
+"115","1106","LOWA",NA,NA,FALSE
+"116","1107","USSR F Area(1992-)",NA,NA,FALSE
+"117","1108","SSahara&SAfr",NA,NA,FALSE
+"118","1109","Czech F Area(1993-)",NA,NA,FALSE
+"119","1110","World",NA,NA,FALSE
+"120","1111","WAEMU",NA,NA,FALSE
+"121","1112","ESCWA",NA,NA,FALSE
+"122","1113","FarEast&Ocea",NA,NA,FALSE
+"123","1114","E SEAsia&Chn",NA,NA,FALSE
+"124","1115","Asia",NA,NA,FALSE
+"125","1116","Far East",NA,NA,FALSE
+"126","1117","World",NA,NA,FALSE
+"127","1118","FarEast&Ocea",NA,NA,FALSE
+"128","1119","E SEAsia&Chn",NA,NA,FALSE
+"129","112","Belarus","112","Belarus",TRUE
+"130","1120","NearEAsia(Ot",NA,NA,FALSE
+"131","1121","Asia&Pacific",NA,NA,FALSE
+"132","1122","E&SE Asia,Ch",NA,NA,FALSE
+"133","1123","Europe&Israe",NA,NA,FALSE
+"134","1124","Eur&IsrExcEU",NA,NA,FALSE
+"135","1125","NorthAmerica",NA,NA,FALSE
+"136","1126","Amer Nth EAA",NA,NA,FALSE
+"137","1127","Amer Lat EAA",NA,NA,FALSE
+"138","1128","Amer Car EAA",NA,NA,FALSE
+"139","1129","Asia EAA",NA,NA,FALSE
+"140","1130","Europe EAA",NA,NA,FALSE
+"141","1131","Oceania EAA",NA,NA,FALSE
+"142","1132","Frm USSR EAA",NA,NA,FALSE
+"143","1133","Wrld Oth EAA",NA,NA,FALSE
+"144","1134","Dvd Ind EAA",NA,NA,FALSE
+"145","1135","Dvd Tran EAA",NA,NA,FALSE
+"146","1136","ProdPricesLP(1961-)",NA,NA,FALSE
+"147","1137","All Unal Wld",NA,NA,FALSE
+"148","1138","Asia Unal",NA,NA,FALSE
+"149","1139","Africa Unal",NA,NA,FALSE
+"150","1140","Oceania Unal",NA,NA,FALSE
+"151","1141","ACM",NA,NA,FALSE
+"152","1142","ECO",NA,NA,FALSE
+"153","1143","MERCOSUR",NA,NA,FALSE
+"154","1144","IGAD",NA,NA,FALSE
+"155","1145","OAU",NA,NA,FALSE
+"156","1146","SPF",NA,NA,FALSE
+"157","1147","ACS",NA,NA,FALSE
+"158","1148","AAAID",NA,NA,FALSE
+"159","1149","PECC",NA,NA,FALSE
+"160","1150","BSEC",NA,NA,FALSE
+"161","1151","IORARC",NA,NA,FALSE
+"162","1152","SPF Dvng",NA,NA,FALSE
+"163","1153","PECC Dvng",NA,NA,FALSE
+"164","1154","SPC Dvng&RsF",NA,NA,FALSE
+"165","1155","IORARCDng&SA",NA,NA,FALSE
+"166","1156","FS C and P",NA,NA,FALSE
+"167","1157","FS C and PL",NA,NA,FALSE
+"168","1158","FS C and NPL",NA,NA,FALSE
+"169","1159","FCFC(1961-)",NA,NA,FALSE
+"170","116","Cambodia","116","Cambodia",TRUE
+"171","1160","FCAM(1961-)",NA,NA,FALSE
+"172","1161","FCCA(1961-)",NA,NA,FALSE
+"173","1162","FCPCS(1961-)",NA,NA,FALSE
+"174","1164","LA&C (LIFDC)",NA,NA,FALSE
+"175","1165","SubSa(LIFDC)",NA,NA,FALSE
+"176","1166","EHDAX",NA,NA,FALSE
+"177","1167","SubSa(EHDAX)",NA,NA,FALSE
+"178","1168","LIFDCs(SOFA)",NA,NA,FALSE
+"179","1169","SAFR",NA,NA,FALSE
+"180","1170","SAPA",NA,NA,FALSE
+"181","1171","SEUR",NA,NA,FALSE
+"182","1172","SLAC",NA,NA,FALSE
+"183","1173","SNEA",NA,NA,FALSE
+"184","1174","NFIDC",NA,NA,FALSE
+"185","1175","FE&P (EHDAX)",NA,NA,FALSE
+"186","1176","Asia Dvng",NA,NA,FALSE
+"187","1177","SUAPLTI(1961-)",NA,NA,FALSE
+"188","1178","SUAPLTS(1961-)",NA,NA,FALSE
+"189","1179","SUAPLD",NA,NA,FALSE
+"190","1180","ACP Africa",NA,NA,FALSE
+"191","1181","ACP Caribbn",NA,NA,FALSE
+"192","1182","ACP Pacific",NA,NA,FALSE
+"193","1183","ACP SugarPro",NA,NA,FALSE
+"194","1184","Africa (FAO)",NA,NA,FALSE
+"195","1185","Developed",NA,NA,FALSE
+"196","1186","CACEU",NA,NA,FALSE
+"197","1187","AMU",NA,NA,FALSE
+"198","1188","SPEC",NA,NA,FALSE
+"199","1189","LUIF",NA,NA,FALSE
+"200","1190","SUAPLS",NA,NA,FALSE
+"201","1191","FBSFBS",NA,NA,FALSE
+"202","1192","ProdPricesCP(1961-)",NA,NA,FALSE
+"203","1193","America Unal",NA,NA,FALSE
+"204","1194","FCAP(1961-)",NA,NA,FALSE
+"205","1195","NE&NA(LIFDC)",NA,NA,FALSE
+"206","1196","IGAG",NA,NA,FALSE
+"207","1197","GCC",NA,NA,FALSE
+"208","1198","World AT2030",NA,NA,FALSE
+"209","1199","AOAD",NA,NA,FALSE
+"210","12","Algeria","12","Algeria",TRUE
+"211","120","Cameroon","120","Cameroon",TRUE
+"212","1200","CEN-SAD",NA,NA,FALSE
+"213","1205","EU (25)",NA,NA,FALSE
+"214","1216","EU (27)",NA,NA,FALSE
+"215","124","Canada","124","Canada",TRUE
+"216","1248","China, Main",NA,NA,FALSE
+"217","1249","China (excl. Hong Kong and Macao)",NA,NA,FALSE
+"218","128","Canton Is",NA,NA,FALSE
+"219","132","Cabo Verde","132","Cabo Verde",TRUE
+"220","136","Cayman Islands","136","Cayman Islands",TRUE
+"221","140","Central African Republic","140","Central African Republic",TRUE
+"222","144","Sri Lanka","144","Sri Lanka",TRUE
+"223","148","Chad","148","Chad",TRUE
+"224",NA,NA,"1500","Low-income countries",FALSE
+"225",NA,NA,"1501","Lower-middle-income countries",FALSE
+"226",NA,NA,"1502","Upper-middle-income countries",FALSE
+"227",NA,NA,"1503","High-income countries",FALSE
+"228",NA,NA,"1517","Middle-income countries",FALSE
+"229",NA,NA,"1518","No income group available",FALSE
+"230","152","Chile","152","Chile",TRUE
+"231","154.01","Northern Europe, unspecified for population",NA,NA,FALSE
+"232","155.01","Western Europe, unspecified for population",NA,NA,FALSE
+"233","156","China","156","China",TRUE
+"234","158","China,Taiwan","158","China, Taiwan Province of China",TRUE
+"235","16","American Samoa","16","American Samoa",TRUE
+"236","162","Christmas Is",NA,NA,FALSE
+"237",NA,NA,"1636","Land-locked Developing Countries (LLDC)",FALSE
+"238",NA,NA,"1637","Small Island Developing States (SIDS)",FALSE
+"239","166","Cocos Is",NA,NA,FALSE
+"240","170","Colombia","170","Colombia",TRUE
+"241","174","Comoros","174","Comoros",TRUE
+"242","175","Mayotte","175","Mayotte",TRUE
+"243","178","Congo","178","Congo",TRUE
+"244","180","Democratic Republic of the Congo","180","Democratic Republic of the Congo",TRUE
+"245",NA,NA,"1802","World Bank income groups",FALSE
+"246",NA,NA,"1803","UN development groups",FALSE
+"247",NA,NA,"1828","Sustainable Development Goal (SDG) regions",FALSE
+"248",NA,NA,"1829","EUROPE AND NORTHERN AMERICA",FALSE
+"249",NA,NA,"1830","LATIN AMERICA AND THE CARIBBEAN",FALSE
+"250",NA,NA,"1832","EASTERN AND SOUTH-EASTERN ASIA",FALSE
+"251",NA,NA,"1833","NORTHERN AFRICA AND WESTERN ASIA",FALSE
+"252",NA,NA,"1835","OCEANIA (EXCLUDING AUSTRALIA AND NEW ZEALAND)",FALSE
+"253","184","Cook Islands","184","Cook Islands",TRUE
+"254",NA,NA,"1840","Geographic regions",FALSE
+"255","188","Costa Rica","188","Costa Rica",TRUE
+"256","191","Croatia","191","Croatia",TRUE
+"257","192","Cuba","192","Cuba",TRUE
+"258","196","Cyprus","196","Cyprus",TRUE
+"259","20","Andorra","20","Andorra",TRUE
+"260","200","Czechoslovak(-1992)",NA,NA,FALSE
+"261","203","Czechia","203","Czechia",TRUE
+"262","204","Benin","204","Benin",TRUE
+"263","208","Denmark","208","Denmark",TRUE
+"264","212","Dominica","212","Dominica",TRUE
+"265","214","Dominican Republic","214","Dominican Republic",TRUE
+"266","218","Ecuador","218","Ecuador",TRUE
+"267","222","El Salvador","222","El Salvador",TRUE
+"268","226","Equatorial Guinea","226","Equatorial Guinea",TRUE
+"269","230","Ethiopia PDR(-1992)",NA,NA,FALSE
+"270","231","Ethiopia","231","Ethiopia",TRUE
+"271","232","Eritrea","232","Eritrea",TRUE
+"272","233","Estonia","233","Estonia",TRUE
+"273","234","Faroe Islands","234","Faroe Islands",TRUE
+"274","238","Falkland Islands (Malvinas)","238","Falkland Islands (Malvinas)",TRUE
+"275","239","SouthGeorgia/Sandwich Is",NA,NA,FALSE
+"276","24","Angola","24","Angola",TRUE
+"277","242","Fiji","242","Fiji",TRUE
+"278","246","Finland","246","Finland",TRUE
+"279","248","Åland Islands",NA,NA,FALSE
+"280","250","France","250","France",TRUE
+"281","254","French Guiana","254","French Guiana",TRUE
+"282","258","French Polynesia","258","French Polynesia",TRUE
+"283","260","Fr South Ter",NA,NA,FALSE
+"284","262","Djibouti","262","Djibouti",TRUE
+"285","266","Gabon","266","Gabon",TRUE
+"286","268","Georgia","268","Georgia",TRUE
+"287","270","Gambia","270","Gambia",TRUE
+"288","274","Gaza Strip(-1995)",NA,NA,FALSE
+"289","275","Palestine(1996-)","275","State of Palestine",TRUE
+"290","276","Germany","276","Germany",TRUE
+"291","278","Germany Nl",NA,NA,FALSE
+"292","28","Antigua and Barbuda","28","Antigua and Barbuda",TRUE
+"293","280","Germany Fr",NA,NA,FALSE
+"294","288","Ghana","288","Ghana",TRUE
+"295","292","Gibraltar","292","Gibraltar",TRUE
+"296","296","Kiribati","296","Kiribati",TRUE
+"297","300","Greece","300","Greece",TRUE
+"298","304","Greenland","304","Greenland",TRUE
+"299","308","Grenada","308","Grenada",TRUE
+"300","31","Azerbaijan","31","Azerbaijan",TRUE
+"301","312","Guadeloupe","312","Guadeloupe",TRUE
+"302","316","Guam","316","Guam",TRUE
+"303","32","Argentina","32","Argentina",TRUE
+"304","320","Guatemala","320","Guatemala",TRUE
+"305","324","Guinea","324","Guinea",TRUE
+"306","328","Guyana","328","Guyana",TRUE
+"307","332","Haiti","332","Haiti",TRUE
+"308","334","Heard Is",NA,NA,FALSE
+"309","336","Holy See","336","Holy See",TRUE
+"310","340","Honduras","340","Honduras",TRUE
+"311","344","China,H.Kong","344","China, Hong Kong SAR",TRUE
+"312","348","Hungary","348","Hungary",TRUE
+"313","352","Iceland","352","Iceland",TRUE
+"314","356","India","356","India",TRUE
+"315","36","Australia","36","Australia",TRUE
+"316","360","Indonesia","360","Indonesia",TRUE
+"317","364","Iran (Islamic Republic of)","364","Iran (Islamic Republic of)",TRUE
+"318","368","Iraq","368","Iraq",TRUE
+"319","372","Ireland","372","Ireland",TRUE
+"320","376","Israel","376","Israel",TRUE
+"321","380","Italy","380","Italy",TRUE
+"322","381","Italy-San Marino-Holy See",NA,NA,FALSE
+"323","384","Côte d'Ivoire","384","Côte d'Ivoire",TRUE
+"324","388","Jamaica","388","Jamaica",TRUE
+"325","392","Japan","392","Japan",TRUE
+"326","396","Johnston Is",NA,NA,FALSE
+"327","398","Kazakhstan","398","Kazakhstan",TRUE
+"328","4","Afghanistan","4","Afghanistan",TRUE
+"329","40","Austria","40","Austria",TRUE
+"330","400","Jordan","400","Jordan",TRUE
+"331","402","West Bank(-1995)",NA,NA,FALSE
+"332","404","Kenya","404","Kenya",TRUE
+"333","408","Democratic People's Republic of Korea","408","Dem. People's Republic of Korea",TRUE
+"334","410","Republic of Korea","410","Republic of Korea",TRUE
+"335","412","Kosovo",NA,NA,FALSE
+"336","414","Kuwait","414","Kuwait",TRUE
+"337","417","Kyrgyzstan","417","Kyrgyzstan",TRUE
+"338","418","Lao People's Democratic Republic","418","Lao People's Democratic Republic",TRUE
+"339","422","Lebanon","422","Lebanon",TRUE
+"340","426","Lesotho","426","Lesotho",TRUE
+"341","428","Latvia","428","Latvia",TRUE
+"342","430","Liberia","430","Liberia",TRUE
+"343","434","Libya","434","Libya",TRUE
+"344","438","Liechtenstein","438","Liechtenstein",TRUE
+"345","44","Bahamas","44","Bahamas",TRUE
+"346","440","Lithuania","440","Lithuania",TRUE
+"347","442","Luxembourg","442","Luxembourg",TRUE
+"348","446","China, Macao","446","China, Macao SAR",TRUE
+"349","450","Madagascar","450","Madagascar",TRUE
+"350","454","Malawi","454","Malawi",TRUE
+"351","458","Malaysia","458","Malaysia",TRUE
+"352","462","Maldives","462","Maldives",TRUE
+"353","466","Mali","466","Mali",TRUE
+"354","470","Malta","470","Malta",TRUE
+"355","474","Martinique","474","Martinique",TRUE
+"356","478","Mauritania","478","Mauritania",TRUE
+"357","48","Bahrain","48","Bahrain",TRUE
+"358","480","Mauritius","480","Mauritius",TRUE
+"359","484","Mexico","484","Mexico",TRUE
+"360","488","Midway Is",NA,NA,FALSE
+"361","492","Monaco","492","Monaco",TRUE
+"362","496","Mongolia","496","Mongolia",TRUE
+"363","498","Republic of Moldova","498","Republic of Moldova",TRUE
+"364","499","Montenegro","499","Montenegro",TRUE
+"365","50","Bangladesh","50","Bangladesh",TRUE
+"366","500","Montserrat","500","Montserrat",TRUE
+"367","504","Morocco","504","Morocco",TRUE
+"368","508","Mozambique","508","Mozambique",TRUE
+"369","51","Armenia","51","Armenia",TRUE
+"370","512","Oman","512","Oman",TRUE
+"371","516","Namibia","516","Namibia",TRUE
+"372","52","Barbados","52","Barbados",TRUE
+"373","520","Nauru","520","Nauru",TRUE
+"374","524","Nepal","524","Nepal",TRUE
+"375","528","Netherlands","528","Netherlands",TRUE
+"376","530","NethAntilles",NA,NA,FALSE
+"377","531","Curaçao","531","Curaçao",TRUE
+"378","533","Aruba","533","Aruba",TRUE
+"379","534","Sint Maarten","534","Sint Maarten (Dutch part)",TRUE
+"380","535","Bonaire/S.Eustatius/Saba","535","Bonaire, Sint Eustatius and Saba",TRUE
+"381","535.01","Bonaire",NA,NA,FALSE
+"382","535.02","Saba",NA,NA,FALSE
+"383","535.03","Sint Eustatius",NA,NA,FALSE
+"384","536","Neutral Zone",NA,NA,FALSE
+"385","540","New Caledonia","540","New Caledonia",TRUE
+"386","548","Vanuatu","548","Vanuatu",TRUE
+"387",NA,NA,"5500","Central Asia",FALSE
+"388",NA,NA,"5501","Southern Asia",FALSE
+"389","554","New Zealand","554","New Zealand",TRUE
+"390","558","Nicaragua","558","Nicaragua",TRUE
+"391","56","Belgium","56","Belgium",TRUE
+"392","562","Niger","562","Niger",TRUE
+"393","566","Nigeria","566","Nigeria",TRUE
+"394","570","Niue","570","Niue",TRUE
+"395","574","Norfolk Is",NA,NA,FALSE
+"396","578","Norway","578","Norway",TRUE
+"397","58","Bel-Lux(-1999)",NA,NA,FALSE
+"398","580","N Marianas","580","Northern Mariana Islands",TRUE
+"399","581","US Minor Is",NA,NA,FALSE
+"400","582","Pacific Is",NA,NA,FALSE
+"401","583","Micronesia (Federated States of)","583","Micronesia (Fed. States of)",TRUE
+"402","584","Marshall Islands","584","Marshall Islands",TRUE
+"403","585","Palau","585","Palau",TRUE
+"404","586","Pakistan","586","Pakistan",TRUE
+"405","591","Panama","591","Panama",TRUE
+"406","598","Papua New Guinea","598","Papua New Guinea",TRUE
+"407","60","Bermuda","60","Bermuda",TRUE
+"408","600","Paraguay","600","Paraguay",TRUE
+"409","604","Peru","604","Peru",TRUE
+"410","608","Philippines","608","Philippines",TRUE
+"411","612","Pitcairn Is",NA,NA,FALSE
+"412","616","Poland","616","Poland",TRUE
+"413","620","Portugal","620","Portugal",TRUE
+"414","624","Guinea-Bissau","624","Guinea-Bissau",TRUE
+"415","626","Timor-Leste","626","Timor-Leste",TRUE
+"416","630","Puerto Rico","630","Puerto Rico",TRUE
+"417","634","Qatar","634","Qatar",TRUE
+"418","638","Réunion","638","Réunion",TRUE
+"419","64","Bhutan","64","Bhutan",TRUE
+"420","642","Romania","642","Romania",TRUE
+"421","643","Russian Federation","643","Russian Federation",TRUE
+"422","646","Rwanda","646","Rwanda",TRUE
+"423","652","Saint Barthélemy","652","Saint-Barthélemy",TRUE
+"424","654","Saint Helena, Ascension and Tristan da Cunha","654","Saint Helena",TRUE
+"425","659","Saint Kitts and Nevis","659","Saint Kitts and Nevis",TRUE
+"426","660","Anguilla","660","Anguilla",TRUE
+"427","662","Saint Lucia","662","Saint Lucia",TRUE
+"428","663","Saint-Martin","663","Saint-Martin (French part)",TRUE
+"429","666","Saint Pierre and Miquelon","666","Saint Pierre and Miquelon",TRUE
+"430","670","Saint Vincent and the Grenadines","670","Saint Vincent and the Grenadines",TRUE
+"431","674","San Marino","674","San Marino",TRUE
+"432","678","Sao Tome and Principe","678","Sao Tome and Principe",TRUE
+"433","68","Bolivia (Plurinational State of)","68","Bolivia (Plurinational State of)",TRUE
+"434","682","Saudi Arabia","682","Saudi Arabia",TRUE
+"435","686","Senegal","686","Senegal",TRUE
+"436","688","Serbia","688","Serbia",TRUE
+"437","690","Seychelles","690","Seychelles",TRUE
+"438","694","Sierra Leone","694","Sierra Leone",TRUE
+"439","70","Bosnia and Herzegovina","70","Bosnia and Herzegovina",TRUE
+"440","702","Singapore","702","Singapore",TRUE
+"441","703","Slovakia","703","Slovakia",TRUE
+"442","704","Viet Nam","704","Viet Nam",TRUE
+"443","705","Slovenia","705","Slovenia",TRUE
+"444","706","Somalia","706","Somalia",TRUE
+"445","710","South Africa","710","South Africa",TRUE
+"446","716","Zimbabwe","716","Zimbabwe",TRUE
+"447","72","Botswana","72","Botswana",TRUE
+"448","720","Yemen Dem",NA,NA,FALSE
+"449","724","Spain","724","Spain",TRUE
+"450","728","South Sudan","728","South Sudan",TRUE
+"451","729","Sudan","729","Sudan",TRUE
+"452","732","Westn Sahara","732","Western Sahara",TRUE
+"453","736","Sudan (former)",NA,NA,FALSE
+"454","74","Bouvet Is",NA,NA,FALSE
+"455","740","Suriname","740","Suriname",TRUE
+"456","744","Svalbard Is",NA,NA,FALSE
+"457","748","Eswatini","748","Eswatini",TRUE
+"458","752","Sweden","752","Sweden",TRUE
+"459","756","Switzerland","756","Switzerland",TRUE
+"460","76","Brazil","76","Brazil",TRUE
+"461","760","Syrian Arab Republic","760","Syrian Arab Republic",TRUE
+"462","762","Tajikistan","762","Tajikistan",TRUE
+"463","764","Thailand","764","Thailand",TRUE
+"464","768","Togo","768","Togo",TRUE
+"465","772","Tokelau","772","Tokelau",TRUE
+"466","776","Tonga","776","Tonga",TRUE
+"467","780","Trinidad and Tobago","780","Trinidad and Tobago",TRUE
+"468","784","United Arab Emirates","784","United Arab Emirates",TRUE
+"469","788","Tunisia","788","Tunisia",TRUE
+"470","792","Turkey","792","Turkey",TRUE
+"471","795","Turkmenistan","795","Turkmenistan",TRUE
+"472","796","Turks and Caicos Islands","796","Turks and Caicos Islands",TRUE
+"473","798","Tuvalu","798","Tuvalu",TRUE
+"474","8","Albania","8","Albania",TRUE
+"475","800","Uganda","800","Uganda",TRUE
+"476","804","Ukraine","804","Ukraine",TRUE
+"477","807","North Macedonia","807","North Macedonia",TRUE
+"478","810","USSR(-1991)",NA,NA,FALSE
+"479","818","Egypt","818","Egypt",TRUE
+"480","826","United Kingdom","826","United Kingdom",TRUE
+"481","830","Channel Is","830","Channel Islands",TRUE
+"482","831","Guernsey",NA,NA,FALSE
+"483","832","Jersey",NA,NA,FALSE
+"484","833","Isle of Man","833","Isle of Man",TRUE
+"485","834","United Republic of Tanzania","834","United Republic of Tanzania",TRUE
+"486","835","United Republic of Tanzania (Mainland)",NA,NA,FALSE
+"487","836","United Republic of Tanzania (Zanzibar)",NA,NA,FALSE
+"488","84","Belize","84","Belize",TRUE
+"489","840","United States of America","840","United States of America",TRUE
+"490","850","US Virgin Is","850","United States Virgin Islands",TRUE
+"491","854","Burkina Faso","854","Burkina Faso",TRUE
+"492","858","Uruguay","858","Uruguay",TRUE
+"493","86","Br Ind Oc Tr",NA,NA,FALSE
+"494","860","Uzbekistan","860","Uzbekistan",TRUE
+"495","862","Venezuela (Bolivarian Republic of)","862","Venezuela (Bolivarian Republic of)",TRUE
+"496","872","Wake Is",NA,NA,FALSE
+"497","876","Wallis and Futuna Islands","876","Wallis and Futuna Islands",TRUE
+"498","882","Samoa","882","Samoa",TRUE
+"499","886","Yemen Ar Rp",NA,NA,FALSE
+"500","887","Yemen","887","Yemen",TRUE
+"501","890","Yugoslav SFR(-1991)",NA,NA,FALSE
+"502","891","Serbia-Monte(1992-2005)",NA,NA,FALSE
+"503","894","Zambia","894","Zambia",TRUE
+"504","896","Other nei",NA,NA,FALSE
+"505","90","Solomon Islands","90","Solomon Islands",TRUE
+"506","900","Asia (FAO)","900","WORLD",FALSE
+"507","901","Europe (FAO)","901","More developed regions",FALSE
+"508","902","SW Pac (FAO)","902","Less developed regions",FALSE
+"509","903","N Amer Dvpd","903","Africa",FALSE
+"510","904","W Europe","904","Latin America and the Caribbean",FALSE
+"511","905","EU (12)","905","Northern America",FALSE
+"512","906","Oceania Dvpd","906","Eastern Asia",FALSE
+"513","907","Africa Dvng",NA,NA,FALSE
+"514","908","N W Africa","908","Europe",FALSE
+"515","909","West Africa","909","Oceania",FALSE
+"516","910","Cent Africa","910","Eastern Africa",FALSE
+"517","911","East Africa","911","Middle Africa",FALSE
+"518","912","LatAmer&Car","912","Northern Africa",FALSE
+"519","913","Central Amer","913","Southern Africa",FALSE
+"520","914","Caribbean","914","Western Africa",FALSE
+"521","915","SouthAmerica","915","Caribbean",FALSE
+"522","916","Near East","916","Central America",FALSE
+"523","917","N East Afr","917","EUROPE",FALSE
+"524","918","N East Asia","918","NORTHERN AMERICA",FALSE
+"525","919","Far East",NA,NA,FALSE
+"526","92","British Virgin Islands","92","British Virgin Islands",TRUE
+"527","920","South Asia","920","South-Eastern Asia",FALSE
+"528","921","E SE Asia","921","CENTRAL AND SOUTHERN ASIA",FALSE
+"529","922","N East&N Afr","922","Western Asia",FALSE
+"530","923","N Amer Dvng","923","Eastern Europe",FALSE
+"531","924","Oceania Dvng","924","Northern Europe",FALSE
+"532","925","CentAmer&Car","925","Southern Europe",FALSE
+"533","926","NAFTA","926","Western Europe",FALSE
+"534","927","Industrial","927","AUSTRALIA/NEW ZEALAND",FALSE
+"535","928","Transition M","928","Melanesia",FALSE
+"536","929","E Europe",NA,NA,FALSE
+"537","930","Europe",NA,NA,FALSE
+"538","931","N C America","931","South America",FALSE
+"539","932","Asia",NA,NA,FALSE
+"540","933","Africa",NA,NA,FALSE
+"541","934","Oceania","934","Less developed regions, excluding least developed countries",FALSE
+"542","935","Africa Dvpd","935","Asia",FALSE
+"543","936","World",NA,NA,FALSE
+"544","937","OECD",NA,NA,FALSE
+"545","938","Asia Dvpd",NA,NA,FALSE
+"546","939","USSR Europe",NA,NA,FALSE
+"547","940","ESCAP",NA,NA,FALSE
+"548","941","USSR Asia","941","Least developed countries",FALSE
+"549","942","Asia Dvng",NA,NA,FALSE
+"550","943","LatinAmerica",NA,NA,FALSE
+"551","944","FarEast&Ocea",NA,NA,FALSE
+"552","945","RAP",NA,NA,FALSE
+"553","946","RNE",NA,NA,FALSE
+"554","947","NearEast FAO","947","SUB-SAHARAN AFRICA",FALSE
+"555","948","Developing","948","Less developed regions, excluding China",FALSE
+"556","949","Afri.Ex.Sout",NA,NA,FALSE
+"557","950","Africa",NA,NA,FALSE
+"558","951","Asia",NA,NA,FALSE
+"559","952","Europe",NA,NA,FALSE
+"560","953","World",NA,NA,FALSE
+"561","954","Africa (Fmr)","954","Micronesia",FALSE
+"562","955","Asia (Fmr)",NA,NA,FALSE
+"563","956","Europe (Fmr)",NA,NA,FALSE
+"564","957","LIFDCs","957","Polynesia",FALSE
+"565","958","Sub-Sahara",NA,NA,FALSE
+"566","959","LAES",NA,NA,FALSE
+"567","96","Brunei Darussalam","96","Brunei Darussalam",TRUE
+"568","960","CACM",NA,NA,FALSE
+"569","961","CARICOM",NA,NA,FALSE
+"570","962","ANCOM",NA,NA,FALSE
+"571","963","CAEU",NA,NA,FALSE
+"572","964","BANGKOK  Agr",NA,NA,FALSE
+"573","965","ASEAN",NA,NA,FALSE
+"574","966","Low-Income",NA,NA,FALSE
+"575","967","SAARC",NA,NA,FALSE
+"576","968","ECA",NA,NA,FALSE
+"577","969","ECLAC",NA,NA,FALSE
+"578","970","ECE",NA,NA,FALSE
+"579","971","FE&P (LIFDC)",NA,NA,FALSE
+"580","972","RAF",NA,NA,FALSE
+"581","973","RLC",NA,NA,FALSE
+"582","974","REU",NA,NA,FALSE
+"583","975","OIC",NA,NA,FALSE
+"584","976","OAPEC",NA,NA,FALSE
+"585","977","ECCAS",NA,NA,FALSE
+"586","978","ECGL",NA,NA,FALSE
+"587","979","CILSS",NA,NA,FALSE
+"588","980","ECOWAS",NA,NA,FALSE
+"589","981","COMESA",NA,NA,FALSE
+"590","982","Dng Ant EAA",NA,NA,FALSE
+"591","983","SADC",NA,NA,FALSE
+"592","984","LAIA",NA,NA,FALSE
+"593","985","OECS",NA,NA,FALSE
+"594","986","ACC",NA,NA,FALSE
+"595","987","Yugo F Area(1992-)",NA,NA,FALSE
+"596","988","Ethio F Area(1993-)",NA,NA,FALSE
+"597","989","CIS(1991-)",NA,NA,FALSE
+"598","990","FAO Member",NA,NA,FALSE
+"599","991","EFTA",NA,NA,FALSE
+"600","992","SPC",NA,NA,FALSE
+"601","993","Antarctica",NA,NA,FALSE
+"602","994","Low-Income",NA,NA,FALSE
+"603","995","Asia",NA,NA,FALSE
+"604","996","World",NA,NA,FALSE
+"605","997","Dng Afr EAA",NA,NA,FALSE
+"606","998","ACP",NA,NA,FALSE
+"607","999","Dng Asia EAA",NA,NA,FALSE
+"608","AH01","Ad hoc aggregation",NA,NA,FALSE

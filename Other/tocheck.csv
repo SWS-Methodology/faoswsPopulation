@@ -1,0 +1,51 @@
+unpd_code,unpd_description,code,description,check
+158,"China, Taiwan Province of China",158,"China,Taiwan",ok
+275,State of Palestine,275,Palestine(1996-),ok
+344,"China, Hong Kong SAR",344,"China,H.Kong",ok
+408,Dem. People's Republic of Korea,408,Democratic People's Republic of Korea,ok
+446,"China, Macao SAR",446,"China, Macao",ok
+534,Sint Maarten (Dutch part),534,Sint Maarten,ok
+535,"Bonaire, Sint Eustatius and Saba",535,Bonaire/S.Eustatius/Saba,ok
+580,Northern Mariana Islands,580,N Marianas,ok
+583,Micronesia (Fed. States of),583,Micronesia (Federated States of),ok
+652,Saint-Barthélemy,652,Saint Barthélemy,ok
+654,Saint Helena,654,"Saint Helena, Ascension and Tristan da Cunha",ok
+663,Saint-Martin (French part),663,Saint-Martin,ok
+732,Western Sahara,732,Westn Sahara,ok
+830,Channel Islands,830,Channel Is,ok
+850,United States Virgin Islands,850,US Virgin Is,ok
+900,WORLD,900,Asia (FAO),no
+901,More developed regions,901,Europe (FAO),no
+902,Less developed regions,902,SW Pac (FAO),no
+903,Africa,903,N Amer Dvpd,no
+904,Latin America and the Caribbean,904,W Europe,no
+905,Northern America,905,EU (12),no
+906,Eastern Asia,906,Oceania Dvpd,no
+908,Europe,908,N W Africa,no
+909,Oceania,909,West Africa,no
+910,Eastern Africa,910,Cent Africa,no
+911,Middle Africa,911,East Africa,no
+912,Northern Africa,912,LatAmer&Car,no
+913,Southern Africa,913,Central Amer,no
+914,Western Africa,914,Caribbean,no
+915,Caribbean,915,SouthAmerica,no
+916,Central America,916,Near East,no
+917,EUROPE,917,N East Afr,no
+918,NORTHERN AMERICA,918,N East Asia,no
+920,South-Eastern Asia,920,South Asia,no
+921,CENTRAL AND SOUTHERN ASIA,921,E SE Asia,no
+922,Western Asia,922,N East&N Afr,no
+923,Eastern Europe,923,N Amer Dvng,no
+924,Northern Europe,924,Oceania Dvng,no
+925,Southern Europe,925,CentAmer&Car,no
+926,Western Europe,926,NAFTA,no
+927,AUSTRALIA/NEW ZEALAND,927,Industrial,no
+928,Melanesia,928,Transition M,no
+931,South America,931,N C America,no
+934,"Less developed regions, excluding least developed countries",934,Oceania,no
+935,Asia,935,Africa Dvpd,no
+941,Least developed countries,941,USSR Asia,no
+947,SUB-SAHARAN AFRICA,947,NearEast FAO,no
+948,"Less developed regions, excluding China",948,Developing,no
+954,Micronesia,954,Africa (Fmr),no
+957,Polynesia,957,LIFDCs,no
